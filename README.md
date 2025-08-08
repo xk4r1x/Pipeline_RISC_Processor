@@ -58,11 +58,11 @@ risc-v-cpu/
 ### Pipeline Architecture
 
 ## Pipeline Timing Diagram
-![Pipeline Timing](docs/pipeline_timing.png)
+![Pipeline Timing](docs/Fivestagespipeline.png)
 *Source: [Classic RISC Pipeline - Wikipedia](https://en.wikipedia.org/wiki/Classic_RISC_pipeline)*
 
 ## Detailed Pipeline Architecture
-![Pipeline Architecture](docs/pipeline_architecture.png)
+![Pipeline Architecture](docs/RISC-V-Micro.png)
 *Source: [Inside RISC-V Microarchitecture - Sirin Software](https://sirinsoftware.com/blog/inside-risc-v-microarchitecture)*
 
 The CPU implements a classic 5-stage pipeline where multiple instructions execute simultaneously across different stages...
