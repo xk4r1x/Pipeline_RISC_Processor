@@ -34,6 +34,7 @@ risc-v-cpu/
 ├── docs/
 │   ├── pipeline_diagram.png     # Pipeline architecture diagram
 │   └── instruction_list.md      # Supported instructions
+│   └── WaveForm.png             # Pipeline Processor WaveForm
 └── README.md
 ```
 
@@ -53,6 +54,18 @@ risc-v-cpu/
 - **ID/EX**: Stores decoded instruction data and control signals
 - **EX/MEM**: Stores ALU results and memory control signals
 - **MEM/WB**: Stores memory data and writeback control signals
+- 
+### Pipeline Architecture
+
+## Pipeline Timing Diagram
+![Pipeline Timing](docs/pipeline_timing.png)
+*Source: [Classic RISC Pipeline - Wikipedia](https://en.wikipedia.org/wiki/Classic_RISC_pipeline)*
+
+## Detailed Pipeline Architecture
+![Pipeline Architecture](docs/pipeline_architecture.png)
+*Source: [Inside RISC-V Microarchitecture - Sirin Software](https://sirinsoftware.com/blog/inside-risc-v-microarchitecture)*
+
+The CPU implements a classic 5-stage pipeline where multiple instructions execute simultaneously across different stages...
 
 ### Hazard Handling
 
